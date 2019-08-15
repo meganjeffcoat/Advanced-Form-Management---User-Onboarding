@@ -1,6 +1,8 @@
 import React from 'react';
+import { Form, Field, withFormik } from 'formik';
+import axios from 'axios';
 
-const Form = () => {
+const UserForm = () => {
     return (
         <div>
             <h1>Form</h1>
@@ -10,4 +12,4 @@ const Form = () => {
 
 
 
-export default Form;
+export default UserForm;
